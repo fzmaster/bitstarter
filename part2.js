@@ -14,7 +14,6 @@ var stringona =  '';
 for(var v = 2; nrPrimos <= 100; v++)
 {
  if(isPrime(v)) {
-//  console.log(v);
   nrPrimos++;
 stringona += ''+v;
   if(nrPrimos <= 100)
